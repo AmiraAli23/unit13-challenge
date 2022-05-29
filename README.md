@@ -12,7 +12,7 @@ The objective of this assignement was to analyze the various cryptocurrencies av
 
 Using the `crypto_data.csv` [file](https://github.com/AmiraAli23/unit13-challenge/blob/ce29d12e8230266cf0a4d56dc56d559a5c3c9f19/crypto_data.csv), I imported the data and renamed the df `crypto_df` . 
 
-To determine which cryptocurrencies are currently trading, we used the following code: 
+To determine which cryptocurrencies are currently trading, I used the following code: 
 
 ```python 
 
