@@ -71,6 +71,35 @@ I then standardized the data using `StandardScaler` from `sk.learn.preprocessing
 
 ## Reducing Dimensions Using PCA
 
+I used PCA to reduce the dimensions into three principle components.
+
+````python
+
+pca = PCA(n_components=3)
+pcafit=pca.fit_transform(scaleX)
+pcadf=pd.DataFrame(data=pcafit, columns=['Pc1','Pc 2','Pc3'])
+pcadf
+````
+
+
+<img width="289" alt="Screen Shot 2022-06-04 at 2 42 27 PM" src="https://user-images.githubusercontent.com/99091066/172021309-8e01ca54-3eed-4a50-a7d2-f8c8d3f07653.png">
+
+## Clustering Crytocurrencies Using K-Means
+
+### Find the Best Value for k Using the Elbow Curve
+
+
+<img width="576" alt="Screen Shot 2022-06-04 at 2 44 25 PM" src="https://user-images.githubusercontent.com/99091066/172021377-fd205667-f8c2-48da-8152-68d5f76208e0.png">
+
+## Scatter Plot with Tradable Cryptocurrencies
+
+
+<img width="698" alt="Screen Shot 2022-06-04 at 2 45 45 PM" src="https://user-images.githubusercontent.com/99091066/172021417-925f8c2d-738e-45f0-81cc-070a7d48f4f1.png">
+
+
+## Table of Tradable Cryptocurrencies
+
+<img width="689" alt="Screen Shot 2022-06-04 at 2 46 53 PM" src="https://user-images.githubusercontent.com/99091066/172021458-214b015b-5ec1-4199-b2f9-958ecb137de0.png">
 
 
 
